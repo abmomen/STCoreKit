@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'STCoreKit_Example' do
+  pod 'STCoreKit', :path => '../'
+
+  target 'STCoreKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
