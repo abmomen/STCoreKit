@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A9C1F5B6A6F99D46ED00A6D /* Pods_STCoreKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CDF9A0C1CF6C957355D6A7 /* Pods_STCoreKit_Example.framework */; };
+		50643C0472214A1866B4B1E7 /* Pods_STCoreKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BEEA5075868F55541B0DE7 /* Pods_STCoreKit_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		FA7D34EC4C953C5665714C47 /* Pods_STCoreKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C7E7B15309FD605578C362 /* Pods_STCoreKit_Tests.framework */; };
+		AAB2513886D7A0AFCEB7A200 /* Pods_STCoreKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9878AD961789A41CC6C12F7B /* Pods_STCoreKit_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		286A2C26581DA8DD671A8A6C /* Pods-STCoreKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Example/Pods-STCoreKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		33678AD106CE8FE0B650747D /* Pods-STCoreKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Example.release.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Example/Pods-STCoreKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		39C7E7B15309FD605578C362 /* Pods_STCoreKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STCoreKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52CDF9A0C1CF6C957355D6A7 /* Pods_STCoreKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STCoreKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* STCoreKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STCoreKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +39,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		609B7C421E3FA872CC46171F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		71DBF497C76B9008FB57D95E /* Pods-STCoreKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Tests/Pods-STCoreKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		97D7BA698CFEF5980F8C5E10 /* Pods-STCoreKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Tests/Pods-STCoreKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		87BEEA5075868F55541B0DE7 /* Pods_STCoreKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STCoreKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9878AD961789A41CC6C12F7B /* Pods_STCoreKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STCoreKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F24AB8033E6C8836B6F0B /* Pods-STCoreKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Example.release.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Example/Pods-STCoreKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BBB15853D787ADB39137B1DF /* Pods-STCoreKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Tests/Pods-STCoreKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C82B1775CFE71329013F1C /* Pods-STCoreKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Example/Pods-STCoreKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D4E860357B60C8EED6352499 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E21AC6ADD449639F95FDCC04 /* Pods-STCoreKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Tests/Pods-STCoreKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FE32DAF34557ACBCBA81B738 /* STCoreKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STCoreKit.podspec; path = ../STCoreKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9C1F5B6A6F99D46ED00A6D /* Pods_STCoreKit_Example.framework in Frameworks */,
+				AAB2513886D7A0AFCEB7A200 /* Pods_STCoreKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,20 +62,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7D34EC4C953C5665714C47 /* Pods_STCoreKit_Tests.framework in Frameworks */,
+				50643C0472214A1866B4B1E7 /* Pods_STCoreKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49D574844B2C5FC73BA006BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9878AD961789A41CC6C12F7B /* Pods_STCoreKit_Example.framework */,
+				87BEEA5075868F55541B0DE7 /* Pods_STCoreKit_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5487B22F1EEFF4A5FCC08878 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				286A2C26581DA8DD671A8A6C /* Pods-STCoreKit_Example.debug.xcconfig */,
-				33678AD106CE8FE0B650747D /* Pods-STCoreKit_Example.release.xcconfig */,
-				97D7BA698CFEF5980F8C5E10 /* Pods-STCoreKit_Tests.debug.xcconfig */,
-				71DBF497C76B9008FB57D95E /* Pods-STCoreKit_Tests.release.xcconfig */,
+				C5C82B1775CFE71329013F1C /* Pods-STCoreKit_Example.debug.xcconfig */,
+				A74F24AB8033E6C8836B6F0B /* Pods-STCoreKit_Example.release.xcconfig */,
+				BBB15853D787ADB39137B1DF /* Pods-STCoreKit_Tests.debug.xcconfig */,
+				E21AC6ADD449639F95FDCC04 /* Pods-STCoreKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -88,7 +97,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				5487B22F1EEFF4A5FCC08878 /* Pods */,
-				684A42623FAB65187DA36A9B /* Frameworks */,
+				49D574844B2C5FC73BA006BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,15 +159,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		684A42623FAB65187DA36A9B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				52CDF9A0C1CF6C957355D6A7 /* Pods_STCoreKit_Example.framework */,
-				39C7E7B15309FD605578C362 /* Pods_STCoreKit_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "STCoreKit_Example" */;
 			buildPhases = (
-				4B09B72BE7F0312AF4A64F9D /* [CP] Check Pods Manifest.lock */,
+				9521C11158D94761E832E0E1 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				AA2732B111FE8B29DBABA2C0 /* [CP] Embed Pods Frameworks */,
-				8BAD1155A9A3E4C0398F263A /* [CP] Copy Pods Resources */,
+				B1952ACDD034370029771EC0 /* [CP] Embed Pods Frameworks */,
+				6C422A7B6757F42284B72FF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,7 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "STCoreKit_Tests" */;
 			buildPhases = (
-				196A1E059FE88F1DD1A23B6B /* [CP] Check Pods Manifest.lock */,
+				4D4BD6B31997EF1C5DDB4A85 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -263,7 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		196A1E059FE88F1DD1A23B6B /* [CP] Check Pods Manifest.lock */ = {
+		4D4BD6B31997EF1C5DDB4A85 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,7 +285,134 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4B09B72BE7F0312AF4A64F9D /* [CP] Check Pods Manifest.lock */ = {
+		6C422A7B6757F42284B72FF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STCoreKit_Example/Pods-STCoreKit_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.bundle",
+				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@2x.png",
+				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@3x.png",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PKHUD/PKHUDResources.bundle",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/LoadingVC.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PaymentConfirmationVC.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/CouponSuggestionView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PhoneNumberVerificationView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TravelAdvice.storyboardc",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/ExploreDestinationTVCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PermissionInfoTVCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TravelAdviceTVCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TravelAdvisoryLevelTVCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TravelDetailsInfoTVCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/JTCalendarHeader.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/JTCalendarView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/JTDateCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/DiscountOptionsCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/EarnTripcoinView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/RedeemTripcoinView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/UseCouponView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/FilterCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/FilterResetCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/BriefInfoCardCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/InfoSelectionCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/InfoTextFieldCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/InfoUploadCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PaymentGatewaysView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/FareCardSingleLineCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PriceBreakdownFareCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PriceViewCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PriceRangeCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleCellShareView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleCellTripCoinView.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TripCoinCardCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TripCoinViewCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PostCardCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SharePostTVCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/RightArrowTitleCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/DoubleInputCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/FirstNameInputCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/LastNameInputCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TowColGivenNameInputCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/RetryInfoCardCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SearchCountryTVCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleInputCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleInputTakenCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleInputTitleCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/STSingleButtonCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleButtonCardCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleLabelInfoTVCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleLineInfoCardCell.nib",
+				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SwitchCell.nib",
+				"${PODS_ROOT}/../../STCoreKit/Classes/Assets.xcassets",
+				"${PODS_CONFIGURATION_BUILD_DIR}/STCoreKit/STCoreKit.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PKHUDResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LoadingVC.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PaymentConfirmationVC.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CouponSuggestionView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PhoneNumberVerificationView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelAdvice.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExploreDestinationTVCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PermissionInfoTVCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelAdviceTVCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelAdvisoryLevelTVCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelDetailsInfoTVCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JTCalendarHeader.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JTCalendarView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JTDateCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DiscountOptionsCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EarnTripcoinView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RedeemTripcoinView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UseCouponView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FilterCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FilterResetCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BriefInfoCardCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InfoSelectionCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InfoTextFieldCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InfoUploadCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PaymentGatewaysView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FareCardSingleLineCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PriceBreakdownFareCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PriceViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PriceRangeCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleCellShareView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleCellTripCoinView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TripCoinCardCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TripCoinViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PostCardCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SharePostTVCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RightArrowTitleCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DoubleInputCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirstNameInputCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LastNameInputCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TowColGivenNameInputCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RetryInfoCardCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SearchCountryTVCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleInputCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleInputTakenCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleInputTitleCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/STSingleButtonCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleButtonCardCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleLabelInfoTVCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleLineInfoCardCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SwitchCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/STCoreKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STCoreKit_Example/Pods-STCoreKit_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9521C11158D94761E832E0E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,35 +434,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8BAD1155A9A3E4C0398F263A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-STCoreKit_Example/Pods-STCoreKit_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.bundle",
-				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@2x.png",
-				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@3x.png",
-				"${PODS_CONFIGURATION_BUILD_DIR}/PKHUD/PKHUDResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/STCoreKit/STCoreKit.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PKHUDResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/STCoreKit.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STCoreKit_Example/Pods-STCoreKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA2732B111FE8B29DBABA2C0 /* [CP] Embed Pods Frameworks */ = {
+		B1952ACDD034370029771EC0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -512,7 +611,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 286A2C26581DA8DD671A8A6C /* Pods-STCoreKit_Example.debug.xcconfig */;
+			baseConfigurationReference = C5C82B1775CFE71329013F1C /* Pods-STCoreKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STCoreKit/Info.plist;
@@ -528,7 +627,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33678AD106CE8FE0B650747D /* Pods-STCoreKit_Example.release.xcconfig */;
+			baseConfigurationReference = A74F24AB8033E6C8836B6F0B /* Pods-STCoreKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STCoreKit/Info.plist;
@@ -544,7 +643,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97D7BA698CFEF5980F8C5E10 /* Pods-STCoreKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = BBB15853D787ADB39137B1DF /* Pods-STCoreKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -567,7 +666,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71DBF497C76B9008FB57D95E /* Pods-STCoreKit_Tests.release.xcconfig */;
+			baseConfigurationReference = E21AC6ADD449639F95FDCC04 /* Pods-STCoreKit_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

@@ -44,7 +44,7 @@ public extension NibBased where Self: UIView {
 public protocol StoryboardBased {
     static var storyboardName: String { get }
     static var storyboardIdentifier: String { get }
-    static func instantiate(bundle: Bundle) -> Self
+    static func instantiate() -> Self
 }
 
 public extension StoryboardBased where Self: UIViewController {
@@ -63,8 +63,8 @@ public extension StoryboardBased where Self: UIViewController {
     
     /// This method instantiate a UIViewController from UIStoryboard
     /// - Returns: UIViewController
-    static func instantiate(bundle: Bundle = Bundle(for: Self.self)) -> Self  {
-        let storyboard = UIStoryboard(name: storyboardName , bundle: bundle)
+    static func instantiate() -> Self  {
+        let storyboard = UIStoryboard(name: storyboardName , bundle: Bundle(for: Self.self))
         guard let viewController = storyboard.instantiateViewController(withIdentifier: storyboardIdentifier) as? Self else {
             fatalError("Can't load view controller \(Self.self) from storyboard named \(storyboardName)")
         }

@@ -1011,7 +1011,7 @@ SPEC CHECKSUMS:
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
-  STCoreKit: ca4e2d2fb05ce89fcb8cb4ea247679e127f0b1ec
+  STCoreKit: 2c7411e9b45dd8845acb8fadcc0f1caa09f69c96
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
