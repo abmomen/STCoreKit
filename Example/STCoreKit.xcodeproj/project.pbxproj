@@ -46,7 +46,7 @@
 		71DBF497C76B9008FB57D95E /* Pods-STCoreKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Tests/Pods-STCoreKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		97D7BA698CFEF5980F8C5E10 /* Pods-STCoreKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCoreKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-STCoreKit_Tests/Pods-STCoreKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4E860357B60C8EED6352499 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FE32DAF34557ACBCBA81B738 /* STCoreKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STCoreKit.podspec; path = ../STCoreKit.podspec; sourceTree = "<group>"; };
+		FE32DAF34557ACBCBA81B738 /* STCoreKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STCoreKit.podspec; path = ../STCoreKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import STCoreKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var welcomeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        welcomeLabel.text = CoreKit().sayHello()
     }
 
     override func didReceiveMemoryWarning() {
