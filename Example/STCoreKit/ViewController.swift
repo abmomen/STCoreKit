@@ -14,8 +14,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = CoreKit().sayHello()
-        
+        welcomeLabel.text = Corekit().welcome()
+        let bundle = Bundle(for: LoadDefaultCountryVC.self)
+        print("Bundle: ", bundle.bundleIdentifier)
+        guard let coreBundle = Bundle(identifier: "org.cocoapods.STCoreKit") else { return }
+        present(LoadDefaultCountryVC.instantiate(bundle: coreBundle), animated: true)
     }
 
     override func didReceiveMemoryWarning() {

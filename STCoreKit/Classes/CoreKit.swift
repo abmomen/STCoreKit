@@ -1,16 +1,16 @@
 //
-//  STCoreKit.swift
-//  Pods
+//  CoreKit.swift
+//  STCoreKit
 //
 //  Created by ST-iOS on 12/19/22.
 //
 
 import Foundation
 
-public class CoreKit {
-    public init() {}
+public class Corekit {
+    public init() { }
     
-    public func sayHello() -> String {
-        return "Hello from STCoreKit"
+    public func welcome() -> String {
+        return "Greetings from STCorekit"
     }
 }
