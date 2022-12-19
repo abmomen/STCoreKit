@@ -2,6 +2,8 @@ use_frameworks!
 
 platform :ios, '13.0'
 
+use_frameworks! :linkage => :static
+
 target 'STCoreKit_Example' do
   pod 'STCoreKit', :path => '../'
   pod 'JWT'
@@ -39,7 +41,6 @@ target 'STCoreKit_Example' do
 
   target 'STCoreKit_Tests' do
     inherit! :search_paths
-
     
   end
 end
