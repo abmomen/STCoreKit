@@ -15,20 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         welcomeLabel.text = Corekit().welcome()
-       
-//        let frameworkBundle = Bundle(for: LoadDefaultCountryVC.self)
-//        let bundleURL = frameworkBundle.resourceURL?.appendingPathComponent("STCoreKit.bundle")
-//        let resourceBundle = Bundle(url: bundleURL!)
-//
-//        print(resourceBundle?.bundleIdentifier)
-        
-        present(LoadDefaultCountryVC.instantiate(), animated: true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
