@@ -16,5 +16,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         welcomeLabel.text = Corekit().welcome()
     }
+    
 }
 
