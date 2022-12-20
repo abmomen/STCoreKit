@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = 'STCoreKit/Classes/**/*.{swift}'
   
   s.resource_bundles = {
-    'STCoreKit' => ['STCoreKit/Classes/**/*.{xib,storyboard,xcassets}']
+    'STCoreKit' => ['STCoreKit/Classes/**/*.{xcassets}']
   }
   
   s.resources = 'STCoreKit/Classes/**/*.{xib,storyboard,xcassets}'
