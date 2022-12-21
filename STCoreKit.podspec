@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.ios.deployment_target = '13.0'
   
-  s.source_files = 'Pod/Classes/**/*.{swift}'
+  #s.source_files = 'Pod/Classes/**/*.{swift}'
   
   s.resource_bundles = {
-    'STCoreKit' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+    'STCoreKit' => ['Pod/Classes/**/*.{swift,storyboard,xib,xcassets,json,imageset,png}']
   }
   
   #s.resources = ['STFlightKit/**/*.{swift,xcassets,xib,storyboard}']
