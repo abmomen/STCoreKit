@@ -19,9 +19,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'STCoreKit' => ['STCoreKit/**/*.{xcassets,xib,storyboard}']
   }
-  
-  s.resources = ['STCoreKit/**/*.{xcassets,xib,storyboard}']
-  
+    
   s.dependency 'JWT'
   s.dependency 'PKHUD'
   s.dependency 'Base64'
