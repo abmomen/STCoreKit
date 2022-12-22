@@ -17,11 +17,6 @@ Pod::Spec.new do |s|
   
   s.source_files = 'STCoreKit/Classes/**/*.{swift}'
   s.resources = "STCoreKit/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  
-  #s.resource_bundles = {
-  #  'STCoreKit' => ['Pod/Classes/**/*.{swift,storyboard,xib,xcassets,json,imageset,png}']
-  #}
-  
     
   s.dependency 'JWT'
   s.dependency 'PKHUD'
