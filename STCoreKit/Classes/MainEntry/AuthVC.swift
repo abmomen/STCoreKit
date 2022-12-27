@@ -10,7 +10,7 @@ import UIKit
 import PKHUD
 import AuthenticationServices
 
-class MainEntryVC: UIViewController {
+public class MainEntryVC: UIViewController {
     
     @IBOutlet weak private var entryView: UIView!
     @IBOutlet weak private var loginEmailView: UIView!
@@ -70,16 +70,16 @@ class MainEntryVC: UIViewController {
     }()
     
     var firstLoad: Bool = true
-    weak var delegate: MainEntryVCDelegate?
+    public weak var delegate: MainEntryVCDelegate?
     
     // MARK: - View's Life Cycle
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
         handleNetworkResponse()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    public override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         if firstLoad {
@@ -480,7 +480,7 @@ class MainEntryVC: UIViewController {
 
 // MARK: - Storyboard Extension
 extension MainEntryVC: StoryboardBased {
-    static var storyboardName: String {
+    public static var storyboardName: String {
         return "MainEntry"
     }
 }
@@ -506,7 +506,7 @@ extension MainEntryVC: ASAuthorizationControllerDelegate, ASAuthorizationControl
         }
     }
     
-    func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
+    public func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
         if let err = error as? ASAuthorizationError {
             switch err.code {
             case .canceled:
@@ -521,7 +521,7 @@ extension MainEntryVC: ASAuthorizationControllerDelegate, ASAuthorizationControl
         }
     }
     
-    func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
+    public func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
         return self.view.window!
     }
 }
