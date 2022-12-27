@@ -8,24 +8,24 @@
 
 import UIKit
 
-class RightArrowTitleCell: UITableViewCell {
+public class RightArrowTitleCell: UITableViewCell {
     
     @IBOutlet private weak var cellContainer: UIView!
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var rightArrowImageView: UIImageView!
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         selectionStyle = .none
         cellContainer.layer.cornerRadius = 4.0
     }
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    public override func setSelected(_ selected: Bool, animated: Bool) {
         setAsSelectedOrHighlighted(selected, animated: animated)
         super.setSelected(selected, animated: animated)
     }
     
-    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+    public override func setHighlighted(_ highlighted: Bool, animated: Bool) {
         setAsSelectedOrHighlighted(highlighted, animated: animated)
         super.setHighlighted(highlighted, animated: animated)
     }
@@ -42,7 +42,7 @@ class RightArrowTitleCell: UITableViewCell {
         }
     }
     
-    func configure(title: String, checked: Bool) {
+    public func configure(title: String, checked: Bool) {
         titleLabel.text = title
         if checked {
             rightArrowImageView.image = UIImage(named: "done-mono")
