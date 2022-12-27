@@ -10,7 +10,7 @@ import UIKit
 import PKHUD
 import AuthenticationServices
 
-public class MainEntryVC: UIViewController {
+public class AuthVC: UIViewController {
     
     @IBOutlet weak private var entryView: UIView!
     @IBOutlet weak private var loginEmailView: UIView!
@@ -479,14 +479,14 @@ public class MainEntryVC: UIViewController {
 }
 
 // MARK: - Storyboard Extension
-extension MainEntryVC: StoryboardBased {
+extension AuthVC: StoryboardBased {
     public static var storyboardName: String {
         return "MainEntry"
     }
 }
 
 // MARK: - Apple login Delegates
-extension MainEntryVC: ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding {
+extension AuthVC: ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding {
     public func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
         switch authorization.credential {
         case let appleIDCredential as ASAuthorizationAppleIDCredential:

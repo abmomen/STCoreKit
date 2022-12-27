@@ -13,10 +13,11 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/abmomen/STCoreKit.git', :tag => s.version.to_s }
   
   s.swift_version = '5.0'
+  s.static_framework = true
   s.ios.deployment_target = '13.0'
   
   s.source_files = 'STCoreKit/Classes/**/*.{swift}'
-  s.resources = "STCoreKit/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  s.resources = "STCoreKit/Classes/**/*.{storyboard,xib,xcassets}"
     
   s.dependency 'JWT'
   s.dependency 'PKHUD'
