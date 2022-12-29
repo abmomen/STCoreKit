@@ -897,7 +897,7 @@ DEPENDENCIES:
   - lottie-ios
   - PKHUD
   - Socket.IO-Client-Swift
-  - STCoreKit (from `../`)
+  - STCoreKit (from `https://github.com/abmomen/STCoreKit.git`)
   - SwiftKeychainWrapper
   - SwiftyJSON
 
@@ -958,7 +958,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   STCoreKit:
-    :path: "../"
+    :git: https://github.com/abmomen/STCoreKit.git
+
+CHECKOUT OPTIONS:
+  STCoreKit:
+    :commit: 549c99e666d45d72a2835203a54c9b29dbbbf4e9
+    :git: https://github.com/abmomen/STCoreKit.git
 
 SPEC CHECKSUMS:
   abseil: ebe5b5529fb05d93a8bdb7951607be08b7fa71bc
@@ -1011,10 +1016,10 @@ SPEC CHECKSUMS:
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
-  STCoreKit: 8684e21c083716262a0d6ed92ae9b96e65cb1752
+  STCoreKit: 5b9e4a605fbfb39f71358399368c6fc44e37326d
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 04910d909e8395f5b277615380035037aa796575
+PODFILE CHECKSUM: 59250ddde65eb2eefa819e577cb988ab44e409b1
 
 COCOAPODS: 1.11.3
