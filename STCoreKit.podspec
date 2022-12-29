@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   
   s.source_files = 'STCoreKit/Classes/**/*.{swift}'
-  s.resources = "STCoreKit/Classes/**/*.{storyboard,xib,xcassets}"
+  s.resources = "STCoreKit/Assets/**/*.{storyboard,xib,xcassets,pdf}"
     
   s.dependency 'JWT'
   s.dependency 'PKHUD'
